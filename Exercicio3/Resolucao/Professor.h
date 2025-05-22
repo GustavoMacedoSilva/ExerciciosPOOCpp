@@ -11,7 +11,7 @@ class Professor{
         string nome;
         int idade;
         string materia;
-        void calculaMedia(Aluno aluno);
+        void calculaMedia(Aluno& aluno);
 };
 
 #endif

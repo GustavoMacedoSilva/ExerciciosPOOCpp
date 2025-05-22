@@ -9,7 +9,7 @@ Professor::Professor(string nome, int idade, string materia) {
     this->materia = materia;
 }
 
-void Professor::calculaMedia(Aluno aluno){
+void Professor::calculaMedia(Aluno& aluno){
     float media = (aluno.notaPV1 + aluno.notaPV2)/2;
     if (media >= 60){
         cout << "Aluno " << aluno.nome << " aprovado!" << endl;

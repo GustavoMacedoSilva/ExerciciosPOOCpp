@@ -23,3 +23,5 @@ Além disso, a classe deve possuir um método chamado, por exemplo, `avaliarAlun
 
 ### Dica:
 Você pode passar objetos como argumentos de métodos ou funções. Isso permite que o professor "avalie" um aluno diretamente com seus dados.
+Quando for passar um objeto com o argumento o método deve ficar assim: 
+`void exemploMetodo(Objeto& objeto)`. Deve ter o `&` pois significar que esta referenciando o objeto que foi passado para o método.
